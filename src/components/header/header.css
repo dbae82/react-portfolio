@@ -47,16 +47,16 @@ img {
 }
 
 @media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
-    }
+  header {
+    height: 68vh;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
-    .header__socials {
-        display: none;
-    }
+  header {
+    height: 100vh;
+  }
+  .header__socials {
+    display: none;
+  }
 }

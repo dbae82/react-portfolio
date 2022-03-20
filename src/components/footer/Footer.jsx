@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
-import { FaLinkedin, FaGithubAlt } from "react-icons/fa";
+import { FaGithubAlt } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
 import logo from "../../assets/logo-dark.png";
 
 const Footer = () => {
@@ -30,7 +31,7 @@ const Footer = () => {
 
       <div className="footer__socials">
         <a href="https://www.linkedin.com/in/dan-bae/">
-          <FaLinkedin />
+          <BsLinkedin />
         </a>
         <a href="https://github.com/dbae82">
           <FaGithubAlt />

@@ -22,7 +22,7 @@
 }
 
 .projects__item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 1rem;
 }
 
 .projects__item-cta {
@@ -31,9 +31,13 @@
   margin-bottom: 1rem;
 }
 
+.projects__item-description {
+  margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 1024px) {
   .projects__container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1.2rem;
   }
 }

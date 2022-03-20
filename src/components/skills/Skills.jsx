@@ -15,6 +15,13 @@ const Skills = () => {
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
+                <h4>React</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
               </div>
@@ -22,7 +29,7 @@ const Skills = () => {
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>CSS</h4>
+                <h4>SASS/CSS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -36,21 +43,14 @@ const Skills = () => {
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Next.js</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
-                <h4>Tailwind</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="skills__details">
-              <BsPatchCheckFill className="skills__details-icon" />
-              <div>
-                <h4>React</h4>
+                <h4>Git/Github</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -77,14 +77,28 @@ const Skills = () => {
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4>PostgreSQL</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skills__details">
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4>Python</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>Express</h4>
                 <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>Typescript</h4>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
           </div>

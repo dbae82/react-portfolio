@@ -37,10 +37,7 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
-            similique officiis ipsum atque reiciendis autem ipsa repellendus
-            ullam magni, eveniet, ab voluptates dolore beatae numquam, tempora
-            incidunt explicabo impedit veritatis.
+          I am a front-end web developer with a love of design. In a previous life, I spent years in client relations which gave me a strong foundation in communication and problem solving skills. I decided to make a change in career paths and found a passion for coding which led me to share these projects with you. I love creating something out of nothing and using creativity to foster inspiration and joy. Take a look around and let me know what you think!
           </p>
 
           <a href="#contact" className="btn btn-primary">

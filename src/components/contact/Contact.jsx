@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef();
+  const [emailForm, setEmailForm] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -24,8 +25,8 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-      
-    e.target.reset();
+
+    setEmailForm(true);
   };
 
   return (
@@ -44,24 +45,35 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea
-            name="message"
-            rows="7"
-            placeholder="Your Message"
-            required
-          ></textarea>
-          <button type="submit" className="btn btn-primary">
-            Send Message
-          </button>
-        </form>
+        {!emailForm ? (
+          <form ref={form} onSubmit={sendEmail}>
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Full Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              rows="7"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" className="btn btn-primary">
+              Send Message
+            </button>
+          </form>
+        ) : (
+          <h2>
+            Your email has been successfully sent. Hope you enjoyed my work!
+          </h2>
+        )}
       </div>
     </section>
   );
